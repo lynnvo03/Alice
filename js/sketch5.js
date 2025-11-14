@@ -474,7 +474,7 @@ function drawDialogueBox(phrases, phraseIndex, textIndex, fullyDisplayed, update
     const boxHeight = desiredBoxHeight;
     const textDrawingHeight = boxHeight - (boxPadding * 2);
 
-    textSize(48);
+    textSize(32);
     textFont('Garamond, serif');
     textAlign(LEFT, TOP);
 
